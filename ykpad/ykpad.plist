@@ -2,90 +2,41 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>ykpad.ipa</key>
+	<key>items</key>
 	<array>
 		<dict>
-			<key>architectures</key>
-			<array>
-				<string>armv7</string>
-				<string>arm64</string>
-			</array>
-			<key>buildNumber</key>
-			<string>1.7.7</string>
-			<key>certificate</key>
-			<dict>
-				<key>SHA1</key>
-				<string>AEE6B5E33879AC1E9BE935BD2F2A728E2B0328E5</string>
-				<key>dateExpires</key>
-				<string>22.10.2024</string>
-				<key>type</key>
-				<string>Cloud Managed iOS Distribution</string>
-			</dict>
-			<key>embeddedBinaries</key>
+			<key>assets</key>
 			<array>
 				<dict>
-					<key>architectures</key>
-					<array>
-						<string>armv7</string>
-						<string>arm64</string>
-					</array>
-					<key>buildNumber</key>
-					<string>1</string>
-					<key>certificate</key>
-					<dict>
-						<key>SHA1</key>
-						<string>AEE6B5E33879AC1E9BE935BD2F2A728E2B0328E5</string>
-						<key>dateExpires</key>
-						<string>22.10.2024</string>
-						<key>type</key>
-						<string>Cloud Managed iOS Distribution</string>
-					</dict>
-					<key>name</key>
-					<string>Countly.framework</string>
-					<key>team</key>
-					<dict>
-						<key>id</key>
-						<string>L2B5468P23</string>
-						<key>name</key>
-						<string>TURKIYE HALK BANKASI ANONIM SIRKETI</string>
-					</dict>
-					<key>versionNumber</key>
-					<string>19.8.0</string>
+					<key>kind</key>
+					<string>software-package</string>
+					<key>url</key>
+					<string>https://halkportal970.github.io/share/ykpad/ykpad.ipa</string>
+				</dict>
+				<dict>
+					<key>kind</key>
+					<string>display-image</string>
+					<key>url</key>
+					<string>https://halkportal970.github.io/share/ykpad/ykpad.png</string>
+				</dict>
+				<dict>
+					<key>kind</key>
+					<string>full-size-image</string>
+					<key>url</key>
+					<string>https://halkportal970.github.io/share/ykpad/ykpad.png</string>
 				</dict>
 			</array>
-			<key>entitlements</key>
+			<key>metadata</key>
 			<dict>
-				<key>application-identifier</key>
-				<string>L2B5468P23.tr.com.halkbank.ykpad</string>
-				<key>com.apple.developer.team-identifier</key>
-				<string>L2B5468P23</string>
-				<key>get-task-allow</key>
-				<false/>
-				<key>keychain-access-groups</key>
-				<array>
-					<string>L2B5468P23.tr.com.halkbank.ykpad</string>
-				</array>
+				<key>bundle-identifier</key>
+				<string>tr.com.halkbank.ykpad</string>
+				<key>bundle-version</key>
+				<string>1.2.2</string>
+				<key>kind</key>
+				<string>software</string>
+				<key>title</key>
+				<string>YKPAD</string>
 			</dict>
-			<key>name</key>
-			<string>ykpad.app</string>
-			<key>profile</key>
-			<dict>
-				<key>UUID</key>
-				<string>c08bb54e-2299-46cf-8f8a-d3c1fa6de51f</string>
-				<key>dateExpires</key>
-				<string>25.04.2023</string>
-				<key>name</key>
-				<string>iOS Team Inhouse Provisioning Profile: tr.com.halkbank.ykpad</string>
-			</dict>
-			<key>team</key>
-			<dict>
-				<key>id</key>
-				<string>L2B5468P23</string>
-				<key>name</key>
-				<string>TURKIYE HALK BANKASI ANONIM SIRKETI</string>
-			</dict>
-			<key>versionNumber</key>
-			<string>1.9.8</string>
 		</dict>
 	</array>
 </dict>
